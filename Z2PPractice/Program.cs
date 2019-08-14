@@ -6,24 +6,52 @@ namespace Z2PPractice
     {
         static void Main(string[] args)
         {
-            Animal myAnimal = new Animal("Bob"); // Name must be set internally
+            Dog dog = new Dog();
 
-            Console.WriteLine(myAnimal.Name);
-            
+            dog.NumberOfLegs = 4;
+            dog.Name = "Dave";
+            dog.Bark();
+
+            Lab lab = new Lab();
+
+            lab.Bark();
+            Console.WriteLine(dog.Name);
         }
     }
-    
+
     class Animal
     {
-        public string Name { get; } // Set is only accessed through the constructor
+        public string Name { get; set; }
+        public string Color { get; set; }
 
-        public Animal()
+        public void Breathe()
         {
-            Name = "No name";
+            Console.WriteLine("I'm breathing");
         }
-        public Animal(string name) // Requires a string to be used with the constructor
+
+        public void Eat()
         {
-            Name = name;
+
         }
     }
+
+    class Dog : Animal
+    {
+        public int NumberOfLegs;
+        public void Bark()
+        {
+            Console.WriteLine("Woof!");
+        }
+    }
+
+    class Lab : Dog, IAnimal
+    {
+
+    }
+
+    interface IAnimal
+    {
+
+    }
+
 }
