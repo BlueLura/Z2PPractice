@@ -6,33 +6,24 @@ namespace Z2PPractice
     {
         static void Main(string[] args)
         {
-            Car myCar = new Car();
-            myCar.Color = "Blue";
+            Animal myAnimal = new Animal("Bob"); // Name must be set internally
 
-            Car myCar2 = new Car();
-            myCar2.Color = "Red";
-
-            Console.WriteLine(myCar.Color);
-            Console.WriteLine(myCar2.Color);
-
-            int total = Math.Add(5, 3);
-            int total2 = Math.Add(6, 12);
-
-            Console.WriteLine(total);
-            Console.WriteLine(total2);
+            Console.WriteLine(myAnimal.Name);
+            
         }
     }
-
-    class Car
+    
+    class Animal
     {
-        public string Color { get; set; }
-    }
+        public string Name { get; } // Set is only accessed through the constructor
 
-    static class Math
-    {
-        public static int Add(int a, int b)
+        public Animal()
         {
-            return a + b;
+            Name = "No name";
+        }
+        public Animal(string name) // Requires a string to be used with the constructor
+        {
+            Name = name;
         }
     }
 }
