@@ -1,0 +1,10 @@
+D:\_Documents\Projects\Z2PPractice\ProgrammingChallenge2\bin\Debug\netcoreapp2.2\ProgrammingChallenge2.deps.json
+D:\_Documents\Projects\Z2PPractice\ProgrammingChallenge2\bin\Debug\netcoreapp2.2\ProgrammingChallenge2.runtimeconfig.json
+D:\_Documents\Projects\Z2PPractice\ProgrammingChallenge2\bin\Debug\netcoreapp2.2\ProgrammingChallenge2.runtimeconfig.dev.json
+D:\_Documents\Projects\Z2PPractice\ProgrammingChallenge2\bin\Debug\netcoreapp2.2\ProgrammingChallenge2.dll
+D:\_Documents\Projects\Z2PPractice\ProgrammingChallenge2\bin\Debug\netcoreapp2.2\ProgrammingChallenge2.pdb
+D:\_Documents\Projects\Z2PPractice\ProgrammingChallenge2\obj\Debug\netcoreapp2.2\ProgrammingChallenge2.csproj.CoreCompileInputs.cache
+D:\_Documents\Projects\Z2PPractice\ProgrammingChallenge2\obj\Debug\netcoreapp2.2\ProgrammingChallenge2.AssemblyInfoInputs.cache
+D:\_Documents\Projects\Z2PPractice\ProgrammingChallenge2\obj\Debug\netcoreapp2.2\ProgrammingChallenge2.AssemblyInfo.cs
+D:\_Documents\Projects\Z2PPractice\ProgrammingChallenge2\obj\Debug\netcoreapp2.2\ProgrammingChallenge2.dll
+D:\_Documents\Projects\Z2PPractice\ProgrammingChallenge2\obj\Debug\netcoreapp2.2\ProgrammingChallenge2.pdb
